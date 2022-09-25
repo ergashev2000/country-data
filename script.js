@@ -49,7 +49,6 @@ function renderData(data = []) {
 
       card.addEventListener("click", (e) => {
         renderModal(card.getAttribute("data-info").toLowerCase());
-        $(".text").textContent = data[0].name;
       });
     });
   }
